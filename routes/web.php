@@ -19,3 +19,10 @@ Route::get('/', function () {
         'subtitle' => 'Made by class 45',
     ]);
 });
+
+Route::get('/about', function () {
+    return view('about', [
+        'title' => 'About',
+        'subtitle' => 'Made by class 45',
+    ]);
+})->name('about');
