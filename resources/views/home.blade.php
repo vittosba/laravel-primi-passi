@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
+    <h1>{{ $title }}</h1>
+    <h2>{{ $subtitle }}</h2>
 </body>
 </html>
